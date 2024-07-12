@@ -57,6 +57,50 @@ console.log(sUbtract(3,10))
 const subtractNumbers=(w,t)=>{return w-t}
 console. log(subtractNumbers(12,4))
 
+//CREATING AN OBJECT
+//const car={
+//    'name':'subaru',
+//'colour':'black',
+//'model':'500tx',
+//'age':'5'
+//};
+
+
+//CLASSES
+// A template for an object
+class Person{
+    constructor(name,age){
+        this.name= name;
+        this.age= age;
+    }
+    greet(){
+        console.log(`Hello my name is ${this.name} and i am ${this.age}`)
+
+    }
+}
+
+const firstPerson= new Person('Esther',23)
+const secondPerson=new Person('Irene',20)
+
+firstPerson.greet()
+
+//All words in light blue are variables and can be changes according to what you want.
+
+class Area{
+    constructor (radius){
+        this.radius=radius
+    }
+    calcArea(){
+    return Math.PI*radius*radius;
+}
+}
+
+const circle1= new Area(40)
+
+
+
+
+
 
 
 
